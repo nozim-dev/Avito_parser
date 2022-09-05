@@ -1,0 +1,1494 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Book"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicBook.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Light"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Medium"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Demi";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Demi"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicDemi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Heavy"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Bold"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT Extra Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Extra Bold"), url("../font/futura-pt-cufonfonts-webfont/FuturaCyrillicExtraBold.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body .container {
+  min-height: 6277px;
+  background: url("../image/Backgroundimage.svg") no-repeat;
+  background-size: cover;
+  padding: 43px 0%;
+  max-height: 6277px;
+}
+
+* body .container header {
+  padding: 0 20%;
+}
+
+@media screen and (max-width: 722px) {
+  * body .container header {
+    padding: 0 5%;
+  }
+}
+
+* body .container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body .container header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 68px;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container header nav .logo {
+    width: 203px;
+    height: 44.82px;
+  }
+}
+
+* body .container header nav .logo img {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+* body .container header nav .telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55.96px;
+  height: 55.96px;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container header nav .telegram {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+* body .container header nav .telegram img {
+  width: 100%;
+  height: 100%;
+}
+
+* body .container header .header_title {
+  margin-top: 15px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container header .header_title {
+    margin-top: 40px;
+  }
+}
+
+* body .container header .header_title span {
+  display: block;
+  text-align: center;
+}
+
+* body .container header .header_title span:first-of-type {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container header .header_title span:first-of-type {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container header .header_title span:first-of-type {
+    font-size: 22px;
+  }
+}
+
+* body .container header .header_title span:last-of-type {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container header .header_title span:last-of-type {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container header .header_title span:last-of-type {
+    font-size: 22px;
+  }
+}
+
+* body .container main .section_Hero {
+  padding-left: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container main .section_Hero {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * body .container main .section_Hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_title {
+  width: 50%;
+  border: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  * body .container main .section_Hero .section_Hero_title {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_title h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #16171b;
+  margin-top: 57px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_Hero .section_Hero_title h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_Hero .section_Hero_title h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container main .section_Hero .section_Hero_title h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_title h1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 80px;
+  line-height: 100%;
+  color: #16171b;
+}
+
+* body .container main .section_Hero .section_Hero_title h1 span {
+  display: inline-block;
+  background: linear-gradient(95.98deg, #a169f7 1.6%, #00aaff 24.24%, #ff6163 50.71%, #97cf26 68.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_Hero .section_Hero_title h1 {
+    font-size: 66px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_Hero .section_Hero_title h1 {
+    font-size: 42px;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_title p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_Hero .section_Hero_title p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_Hero .section_Hero_title p {
+    font-size: 20px;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_title .section_Hero_title_btn {
+  max-width: 242px;
+  margin-top: 24px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+  background: #5956e9;
+  border-radius: 21px;
+  padding: 19px 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_Hero .section_Hero_title .section_Hero_title_btn {
+    font-size: 20px;
+    padding: 16px 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_Hero .section_Hero_title .section_Hero_title_btn {
+    font-size: 16px;
+    padding: 10px 13px;
+    max-width: 202px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * body .container main .section_Hero .section_Hero_title .section_Hero_title_btn {
+    margin: auto;
+    margin-top: 24px;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_img {
+  width: 50%;
+  border: inherit;
+  margin-top: -30px;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container main .section_Hero .section_Hero_img {
+    margin: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * body .container main .section_Hero .section_Hero_img {
+    width: 100%;
+  }
+}
+
+* body .container main .section_Hero .section_Hero_img img {
+  width: 100%;
+  height: 100%;
+}
+
+* body .container main .section_try {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body .container main .section_try img {
+  margin-top: 5px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+  * body .container main .section_try img {
+    display: none;
+  }
+}
+
+* body .container main .section_try .section_try_content {
+  background: url("../image/Test.svg") no-repeat;
+  background-size: 100% 100%;
+  width: 737px;
+  height: 264.43px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_try .section_try_content {
+    width: 537px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_try .section_try_content {
+    width: 337px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  * body .container main .section_try .section_try_content {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  * body .container main .section_try .section_try_content {
+    width: 250px;
+  }
+}
+
+* body .container main .section_try .section_try_content h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 57.1733px;
+  line-height: 83px;
+  text-align: center;
+  color: #fab8c4;
+  margin-top: 20px;
+  margin-left: -140px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_try .section_try_content h2 {
+    font-size: 40px;
+    line-height: 63px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_try .section_try_content h2 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-top: 80px;
+    margin-left: -70px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  * body .container main .section_try .section_try_content h2 {
+    font-size: 22px;
+    margin-top: 90px;
+    margin-left: -40px;
+  }
+}
+
+* body .container main .section_try .section_try_content h2 span {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 35.75px;
+  line-height: 51.71px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_try .section_try_content h2 span {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_try .section_try_content h2 span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  * body .container main .section_try .section_try_content h2 span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  * body .container main .section_try .section_try_content h2 span {
+    font-size: 13px;
+  }
+}
+
+* body .container main .section_advantages {
+  padding: 55px 20%;
+  margin: auto;
+}
+
+@media screen and (max-width: 722px) {
+  * body .container main .section_advantages {
+    padding: 55px 5%;
+  }
+}
+
+* body .container main .section_advantages .section_advantages_title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+  text-align: center;
+  color: #27272e;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_advantages .section_advantages_title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_advantages .section_advantages_title {
+    font-size: 36px;
+  }
+}
+
+* body .container main .section_advantages .section_advantages_row {
+  border: inherit;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col {
+  border: inherit;
+  text-align: center;
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 64px;
+  line-height: 82px;
+  color: #16171b;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col h3 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col h4 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 41px;
+  color: #16171b;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col h4 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #16171b;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col p span {
+  font-family: "Futura PT Bold";
+  font-weight: 500;
+  line-height: 30.77px;
+}
+
+* body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-last-of-type(1), * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-last-of-type(2) {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1061px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(1) {
+    grid-area: myCol1;
+    margin-bottom: 57px;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) {
+    grid-area: myCol2;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) {
+    grid-area: myCol3;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(4) {
+    grid-area: myCol4;
+    margin-bottom: 57px;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(5) {
+    grid-area: myCol5;
+    margin-bottom: 57px;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) {
+    grid-area: myCol6;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) {
+    grid-area: myCol7;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(8) {
+    grid-area: myCol8;
+    margin-bottom: 57px;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(9) {
+    grid-area: myCol9;
+    margin-bottom: 57px;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) {
+    grid-area: myCol10;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) {
+    width: 40%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) {
+    width: 40%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) {
+    width: 40%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) {
+    width: 40%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) {
+    width: 40%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) {
+    width: 50%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) {
+    width: 60%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(2) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) {
+    width: 60%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(3) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) {
+    width: 60%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(6) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) {
+    width: 60%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(7) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) {
+    width: 60%;
+    margin: auto;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-of-type(10) img {
+    width: 100%;
+    height: 100%;
+  }
+  * body .container main .section_advantages .section_advantages_row .section_advantages_row_col:nth-last-of-type(2) {
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: 1061px) {
+  * body .container main .section_advantages .section_advantages_row {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "myCol2" "myCol1" "myCol3" "myCol4" "myCol6" "myCol5" "myCol7" "myCol8" "myCol10" "myCol9";
+  }
+}
+
+* body .container main .section_price {
+  background-color: #d8e1e8;
+  padding: 0 10%;
+  height: 803px;
+  background: url("../image/Mask_group.svg") no-repeat;
+  background-size: 100%;
+  background-origin: border-box;
+  border-radius: 144px;
+  margin-top: 96px;
+}
+
+@media screen and (max-width: 722px) {
+  * body .container main .section_price {
+    padding: 0 5%;
+    min-height: 803px;
+    width: 100%;
+    background: #fff;
+    border-radius: 0;
+  }
+}
+
+* body .container main .section_price h1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 100%;
+  text-align: center;
+  color: #27272e;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price h1 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price h1 {
+    font-size: 40px;
+  }
+}
+
+* body .container main .section_price .section_price_row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 27.21px;
+  margin-top: 155px;
+}
+
+@media screen and (max-width: 941px) {
+  * body .container main .section_price .section_price_row {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * body .container main .section_price .section_price_row {
+    margin-top: 50px;
+  }
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col {
+  padding: 34px 31px;
+  background-color: #27272e;
+  border-radius: 28px;
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 64px;
+  line-height: 82px;
+  text-align: center;
+  color: #fab8c4;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price .section_price_row .section_price_row_col h2 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price .section_price_row .section_price_row_col h2 {
+    font-size: 40px;
+  }
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col span {
+  display: block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price .section_price_row .section_price_row_col span {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price .section_price_row .section_price_row_col span {
+    font-size: 20px;
+  }
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ababab;
+  margin-top: 19px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price .section_price_row .section_price_row_col p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price .section_price_row .section_price_row_col p {
+    font-size: 14px;
+  }
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col:nth-of-type(3) {
+  background-color: #5956e9;
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col:nth-of-type(3) h2 {
+  color: #fff;
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col:nth-of-type(3) span {
+  color: #fff;
+}
+
+* body .container main .section_price .section_price_row .section_price_row_col:nth-of-type(3) p {
+  color: #fff;
+}
+
+* body .container main .section_price h4 {
+  margin-top: 70px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #27272e;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price h4 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price h4 {
+    font-size: 36px;
+  }
+}
+
+* body .container main .section_price h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 54.4954px;
+  line-height: 150%;
+  text-align: center;
+  color: #5956e9;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_price h3 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_price h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * body .container main .section_price h3 {
+    font-size: 22px;
+  }
+}
+
+* body .container main .section_personalCabinet {
+  padding: 0 20%;
+  margin-top: 154px;
+}
+
+@media screen and (max-width: 722px) {
+  * body .container main .section_personalCabinet {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet {
+    margin-top: 554px;
+  }
+}
+
+* body .container main .section_personalCabinet p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #16171b;
+  margin-bottom: 77px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet p {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet p {
+    font-size: 32px;
+  }
+}
+
+* body .container main .section_personalCabinet h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet h2 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet h2 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * body .container main .section_personalCabinet h2 {
+    font-size: 32px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 43px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) {
+  width: 50%;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form {
+  padding: 41px 50px;
+  background-color: #fff;
+  border-radius: 27px;
+  margin-top: 81px;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form h3 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form h3 {
+    font-size: 30px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label {
+    font-size: 18px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"] {
+  width: 100%;
+  border: 1px solid #d6e0e7;
+  border-radius: 15px;
+  padding: 15px 24px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #778f9d;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"] {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"] {
+    font-size: 16px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-webkit-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #778f9d;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]:-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #778f9d;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #778f9d;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #778f9d;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::placeholder {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="text"]::placeholder {
+    font-size: 16px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label[for="allow"] {
+  display: inline-block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #16171b;
+  margin-left: 17px;
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label[for="allow"] {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form label[for="allow"] {
+    font-size: 13px;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  cursor: pointer;
+  position: relative;
+  border-radius: 7px;
+  margin-top: 25px;
+  border: 2px solid #d8e1e8;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="checkbox"]:checked {
+  background-color: blue;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="checkbox"]:before,
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="checkbox"]:checked:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="checkbox"]:checked:before {
+  content: "✔";
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="submit"] {
+  padding: 15px 21px;
+  display: block;
+  width: 100%;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+  background: #5956e9;
+  border-radius: 21px;
+  border: none;
+  margin-top: 31px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="submit"] {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form input[type="submit"] {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) form {
+    padding: 41px 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(1) {
+    width: 100%;
+  }
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) {
+  width: 50%;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+* body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container main .section_personalCabinet .section_personalCabinet_row .section_personalCabinet_row_col:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+* body .container footer {
+  padding: 0 20%;
+  margin-top: 277px;
+}
+
+@media screen and (max-width: 722px) {
+  * body .container footer {
+    padding: 0 5%;
+  }
+}
+
+* body .container footer img {
+  display: block;
+  margin-bottom: 89px;
+}
+
+@media only screen and (max-width: 768px) {
+  * body .container footer img {
+    width: 203px;
+    height: 44.82px;
+  }
+}
+
+* body .container footer p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #16171b;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .container footer p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * body .container footer p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  * body .container {
+    margin: auto;
+    max-width: 1920px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
